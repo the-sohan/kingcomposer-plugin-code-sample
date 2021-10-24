@@ -1,0 +1,391 @@
+
+.industry-section-title{
+    text-align: center;
+}
+
+.industry-section-title h4{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.industry-section-title h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.industry-service-box{
+    text-align: center;
+}
+.industry-service-box h2{
+    font-size: 21px;
+    font-weight: 600;
+}
+.service-icon{
+    font-size: 61px;
+    line-height: 67px;
+    color: #f6d540;
+}
+.service-icon, .service-img-icon{
+    margin-bottom: 30px;
+}
+
+
+/*========================
+||industry-slide Area||
+=========================*/
+.industry-slide-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #333;
+}
+.industry-single-slide{
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    position: relative;
+    width: 100%;
+    background-color: #ddd;
+    display: table;
+    font-weight: 300;
+    font-size: 16px;
+}
+.industry-single-slide-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.industry-single-slide h2{
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+.industry-slides .owl-nav div{
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    font-size: 70px;
+    line-height: 60px;
+    margin-top: -30px;
+    color: #fff;
+}
+.industry-slides .owl-nav div.owl-next{
+    left: auto;
+    right: 50px;
+}
+.industry-slides .owl-dots{
+    position: absolute;
+    left: 10.5%;
+    bottom: 30px;
+}
+.industry-slides .owl-dots div{
+    height: 5px;
+    width: 30px;
+    background: #a3a3a2;
+    display: inline-block;
+    margin-right: 5px;
+}
+.industry-slides .owl-dots div.active{
+    background-color: #f0c810;
+}
+/*========================
+||CTA Area||
+=========================*/
+.cta-text{
+    
+}
+.cta-text h3{
+    max-width: 810px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #fff;
+}
+.cta-text h2{
+    margin-bottom: 0px;
+    margin-top: 8px;
+    font-weight: 600;
+}
+.cta-text h3 strong{
+    color: #f3ca32;
+    font-weight: 400;
+}
+
+/*========================
+||Testimonial Area||
+=========================*/
+.kc-testimo .content-desc{
+    background: #f8f9fc; 
+    color: #333;
+    padding: 40px;
+    border: 1px solid #dedede;
+    position: relative;
+    margin-bottom: 35px;
+    z-index: 2;
+}
+.kc-testimo .content-desc:after{
+    font-family: fontawesome;
+    content: "\f10d";
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: #d8d9dc;
+    font-size: 25px;
+    z-index: -1;
+}
+.kc-testimo .content-desc:before{
+    position: absolute;
+    content: "";
+    bottom: -14px;
+    height: 25px;
+    width: 25px;
+    transform: rotate(134deg);
+    left: 40px;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    z-index: 2;
+    background: #f8f9fc;
+}
+.kc-testimo .content-title{
+    text-transform: none;
+}
+.kc-testimo .content-position{
+    color: #222;
+}
+/*========================
+||Tab Area||
+=========================*/
+div.kc_tabs>.kc_wrapper>.kc_tabs_nav{
+    background: none;
+    border-left: 1px solid #dfdfdf;
+}
+.kc_wrapper>ul.ui-tabs-nav>li{
+    border-right: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+}
+div.kc_tabs_nav > li:hover, div.kc_tabs_nav > li > a:hover, div.kc_tabs_nav > .ui-tabs-active > a{
+    background-color: #f2f2f2;
+}
+.kc_tab.ui-tabs-panel{
+    border: none;
+}
+.ui-tabs-body-active{
+    background-color: transparent;
+}
+.kc_tabs_nav ~ .kc-elm.kc_tab.ui-tabs-panel.ui-tabs-body-active {
+    background-color: transparent;
+}
+.kc_tabs_nav ~ .kc_tab .kc_tab_content{
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+}
+/*========================
+||industry-service-box-2||
+=========================*/
+.industry-service-box-2{
+    background: #fff;
+    box-shadow: 0 0 5px #f1f1f1;
+    padding: 12px;
+}
+.industry-service-box-2 h3{
+    font-size: 21px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.boxed-btn{
+    display: inline-block;
+    background: #f3c932;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 2px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/*========================
+||industry-service-box-3||
+=========================*/
+
+.industry-service-box-3 {
+    position: relative;
+    background: #fff;
+    margin: 15px 0;
+    padding: 30px 15px 20px 120px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+.float-left {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+.inline-btn {
+    display: inline-block;
+    color: #333;
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+.inline-btn i {
+    padding: 0 10px;
+}
+/*========================
+||Counter Box||
+=========================*/
+.counter-icon{
+    color: #f4cc39;
+    font-size: 65px;
+    line-height: 66px;
+}
+.industry-counter-box{
+    text-align: center;
+}
+.industry-counter-box p{
+    margin-top: 15px;
+}
+/*========================
+||Single Service page||
+=========================*/
+ul#menu-our-services {
+    padding: 0;
+    margin: 0;
+}
+.widget.kc-elm{
+    border: 1px solid #d1dcef;
+    margin-bottom: 50px;
+}
+.widget.kc-elm li{
+    border-bottom: 1px solid #d1dcef;
+    list-style: none;
+}
+.widget.kc-elm li:last-child{
+    border-bottom: none;
+}
+.widget.kc-elm li a{
+    color: #535d67;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+    padding: 10px;
+}
+.widget.kc-elm li.current_page_item > a, .widget.kc-elm li:hover > a{
+    background-color: #45be24;
+    color: #fff;
+}
+.kc-testimo .content-desc h5{
+    font-size: 15px;
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+
+/*========================
+||Case Study||
+=========================*/
+
+.widget.kc-elm{
+    position: relative;
+    margin-top: 25px;
+}
+.widget.kc-elm h2.widgettitle{
+    position: absolute;
+    left: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: .5;
+    top: 0;
+}
+.industry_case_study{
+    position: relative;
+    border: 1px solid #ddd;
+    margin-bottom: 40px;
+    z-index: 2;
+    padding-right: 40%;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: .3s;
+}
+.industry_case_study:hover{
+    box-shadow: 5px 6px 43px #ddd;
+    border: 1px solid transparent;
+}
+.industry_case_study h2{
+    font-size: 21px;
+}
+.case-study-bg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+.industry_case_study a{
+    color: #333;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.industry_case_study a:hover{
+    color: #f3c932;
+}
+/*contact form css*/
+
+.industry-contact-form{
+        text-align: center;
+    }
+    .industry-contact-form h3{
+        font-weight: 400;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .industry-contact-form label{
+        text-transform: uppercase;
+        color: #666;
+        font-size: 12px;
+        font-weight: 600;
+        display: block;
+        text-align: left;
+    }
+    .industry-contact-form input, .industry-contact-form textarea{
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+    .industry-contact-form input[type=submit]{
+        width: auto;
+        margin-top: 0;
+    }
+    .industry-contact-form textarea{
+        height: 150px;
+        margin-bottom: 10px; 
+        font-weight: 400;
+    }
+    input[type=text],
+    input[type=email],
+    input[type=submit],
+    input[type=tel],
+    input[type=url],
+    input[type=password],
+    textarea {
+        border: 1px solid #f4f4f4;
+        max-width: 100%;
+        padding: 12px;
+        font-weight: 400;
+        background-color: #f4f4f4;
+    }
+        input[type=submit]{
+        background-color: #47be26;
+        color: #fff;
+        border: none;
+        padding-bottom: 10px 30px; 
+    }
